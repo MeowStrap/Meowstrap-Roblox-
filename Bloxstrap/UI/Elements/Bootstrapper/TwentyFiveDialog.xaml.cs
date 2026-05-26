@@ -10,7 +10,7 @@ using Wpf.Ui.Appearance;
 namespace Bloxstrap.UI.Elements.Bootstrapper
 {
     /// <summary>
-    /// Interaction logic for ClassicFluentDialog.xaml
+    /// Interaction logic for TwentyFiveDialog.xaml
     /// </summary>
     public partial class TwentyFiveDialog : IBootstrapperDialog
     {
