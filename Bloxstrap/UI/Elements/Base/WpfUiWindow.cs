@@ -40,30 +40,32 @@ namespace Bloxstrap.UI.Elements.Base
             // there doesn't seem to be a way to query the name for merged dictionaries
             var dict = new ResourceDictionary { Source = new Uri($"pack://application:,,,/UI/Style/{Enum.GetName(App.Settings.Prop.Theme.GetFinal())}.xaml") };
 
-            if (App.Settings.Prop.UseAcrylicBackground && useAcrylic)
-            {
-                this.WindowStyle = WindowStyle.None;
+            this.Resources["MainWindowBackgroundBrush"] = new SolidColorBrush(Color.FromArgb(1, 0, 0, 0));
 
-                if (!AllowsTransparency)
-                    this.AllowsTransparency = true;
+            //if (App.Settings.Prop.UseAcrylicBackground && useAcrylic)
+            //{
+            //    this.WindowStyle = WindowStyle.None;
 
-                this.ExtendsContentIntoTitleBar = true;
-                this.WindowBackdropType = BackgroundType.Acrylic;
+            //    if (!AllowsTransparency)
+            //        this.AllowsTransparency = true;
 
-                byte opacity = App.Settings.Prop.AcrylicBackgroundOpacity;
+            //    this.ExtendsContentIntoTitleBar = true;
+            //    this.WindowBackdropType = BackgroundType.Acrylic;
 
-                if (App.Settings.Prop.Theme.GetFinal() == Enums.Theme.Light)
-                    this.Resources["MainWindowBackgroundBrush"] = new SolidColorBrush(Color.FromArgb(opacity, 250, 250, 250));
-                else
-                    this.Resources["MainWindowBackgroundBrush"] = new SolidColorBrush(Color.FromArgb(opacity, 32, 32, 32));
-            }
-            else
-            {
-                this.ExtendsContentIntoTitleBar = true;
-                this.WindowBackdropType = BackgroundType.Mica;
+            //    byte opacity = App.Settings.Prop.AcrylicBackgroundOpacity;
 
-                this.Resources["MainWindowBackgroundBrush"] = new SolidColorBrush(Color.FromArgb(1, 0, 0, 0));
-            }
+            //    if (App.Settings.Prop.Theme.GetFinal() == Enums.Theme.Light)
+            //        this.Resources["MainWindowBackgroundBrush"] = new SolidColorBrush(Color.FromArgb(opacity, 250, 250, 250));
+            //    else
+            //        this.Resources["MainWindowBackgroundBrush"] = new SolidColorBrush(Color.FromArgb(opacity, 32, 32, 32));
+            //}
+            //else
+            //{
+            //    this.ExtendsContentIntoTitleBar = true;
+            //    this.WindowBackdropType = BackgroundType.Mica;
+
+            //    this.Resources["MainWindowBackgroundBrush"] = new SolidColorBrush(Color.FromArgb(1, 0, 0, 0));
+            //}
 
             Application.Current.Resources.MergedDictionaries[customThemeIndex] = dict;
 
