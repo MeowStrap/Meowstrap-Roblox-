@@ -1,10 +1,8 @@
-﻿using System.Collections.ObjectModel;
-using System.Windows.Input;
-
-using Microsoft.Win32;
-
+﻿using Bloxstrap.UI.Elements.Controls;
 using CommunityToolkit.Mvvm.Input;
-using System.Windows.Controls;
+using Microsoft.Win32;
+using System.Collections.ObjectModel;
+using System.Windows.Input;
 
 namespace Bloxstrap.UI.ViewModels.Settings
 {
@@ -106,6 +104,13 @@ namespace Bloxstrap.UI.ViewModels.Settings
                     OnPropertyChanged(nameof(DiscordAccountOnProfile));
                 }
             }
+        }
+        public IReadOnlyList<DiscordRPCStatusDisplay> DiscordActivityStatusDisplayTypes => DiscordRPCStatusDisplayEx.Selections;
+
+        public DiscordRPCStatusDisplay DiscordActivityStatusDisplayType
+        {
+            get => App.Settings.Prop.RichPresenceStatusDisplayType;
+            set => App.Settings.Prop.RichPresenceStatusDisplayType = value;
         }
 
         public bool DiscordActivityJoinEnabled

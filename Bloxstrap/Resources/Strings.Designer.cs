@@ -2107,20 +2107,20 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to After 2 weeks.
-        /// </summary>
-        public static string Enums_CleanerOptions_TwoWeeks {
-            get {
-                return ResourceManager.GetString("Enums.CleanerOptions.TwoWeeks", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to After 2 months.
         /// </summary>
         public static string Enums_CleanerOptions_TwoMonths {
             get {
                 return ResourceManager.GetString("Enums.CleanerOptions.TwoMonths", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to After 2 weeks.
+        /// </summary>
+        public static string Enums_CleanerOptions_TwoWeeks {
+            get {
+                return ResourceManager.GetString("Enums.CleanerOptions.TwoWeeks", resourceCulture);
             }
         }
         
@@ -2157,6 +2157,24 @@ namespace Bloxstrap.Resources {
         public static string Enums_CustomThemeTemplate_Simple {
             get {
                 return ResourceManager.GetString("Enums.CustomThemeTemplate.Simple", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Details (Playing Game).
+        /// </summary>
+        public static string Enums_DiscordRPCStatusDisplay_Details {
+            get {
+                return ResourceManager.GetString("Enums.DiscordRPCStatusDisplay.Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name (Playing Roblox).
+        /// </summary>
+        public static string Enums_DiscordRPCStatusDisplay_Name {
+            get {
+                return ResourceManager.GetString("Enums.DiscordRPCStatusDisplay.Name", resourceCulture);
             }
         }
         
@@ -4557,6 +4575,24 @@ namespace Bloxstrap.Resources {
         public static string Menu_Integrations_ShowGameActivity_Title {
             get {
                 return ResourceManager.GetString("Menu.Integrations.ShowGameActivity.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select the type of status display you want..
+        /// </summary>
+        public static string Menu_Integrations_StatusDisplay_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.StatusDisplay.Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Discord status display.
+        /// </summary>
+        public static string Menu_Integrations_StatusDisplay_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.StatusDisplay.Title", resourceCulture);
             }
         }
         

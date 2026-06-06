@@ -1853,4 +1853,16 @@ Defaulting to {1}.</value>
   <data name="Menu.Appearance.AcrylicOpacity.Description" xml:space="preserve">
     <value>Set the opacity for the Acrylic background.</value>
   </data>
+  <data name="Enums.DiscordRPCStatusDisplay.Name" xml:space="preserve">
+    <value>Name (Playing Roblox)</value>
+  </data>
+  <data name="Enums.DiscordRPCStatusDisplay.Details" xml:space="preserve">
+    <value>Details (Playing Game)</value>
+  </data>
+  <data name="Menu.Integrations.StatusDisplay.Title" xml:space="preserve">
+    <value>Discord status display</value>
+  </data>
+  <data name="Menu.Integrations.StatusDisplay.Description" xml:space="preserve">
+    <value>Select the type of status display you want.</value>
+  </data>
 </root>
