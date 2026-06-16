@@ -1569,8 +1569,7 @@ namespace Bloxstrap
                 }
 
                 App.Logger.WriteLine(LOG_IDENT, "End font check");
-            }
-            else if (Directory.Exists(modFontFamiliesFolder))
+            } else if (Directory.Exists(modFontFamiliesFolder))
             {
                 Directory.Delete(modFontFamiliesFolder, true);
             }
@@ -1601,7 +1600,9 @@ namespace Bloxstrap
                 if (relativeFile.EndsWith(".lock"))
                     continue;
 
-                if (relativeFile.EndsWith(".mesh"))
+                bool isBlacklisted = relativeFile.Contains("content\\avatar\\heads") || relativeFile.Contains("content\\avatar\\compositing") || relativeFile.Contains("content\\avatar\\meshes");
+
+                if (relativeFile.EndsWith(".mesh") && isBlacklisted)
                 {
                     App.Logger.WriteLine(LOG_IDENT, $"Skipping file: {relativeFile}");
                     continue;
