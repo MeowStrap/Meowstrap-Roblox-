@@ -3844,7 +3844,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Roblox only applies whitelisted FFlags. Double click to learn more..
+        ///   Looks up a localized string similar to Roblox only applies whitelisted FFlags..
         /// </summary>
         public static string Menu_FastFlags_EditorInfo {
             get {
