@@ -384,7 +384,7 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Downloading - {0} left.
+        ///   Looks up a localized string similar to Downloading - {0} out of {1}.
         /// </summary>
         public static string Bootstrapper_Status_DownloadingPackages {
             get {

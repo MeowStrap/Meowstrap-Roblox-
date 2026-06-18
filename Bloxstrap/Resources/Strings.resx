@@ -1258,7 +1258,7 @@ Please close any applications that may be using Roblox's files, and relaunch.</v
     <value>Downloading</value>
   </data>
   <data name="Bootstrapper.Status.DownloadingPackages" xml:space="preserve">
-    <value>Downloading - {0} left</value>
+    <value>Downloading - {0} out of {1}</value>
   </data>
   <data name="Menu.Appearance.BootstrapperDownloading.Title" xml:space="preserve">
     <value>Bootstrapper downloading status</value>
