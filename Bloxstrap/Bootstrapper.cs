@@ -570,6 +570,12 @@ namespace Bloxstrap
                 return false;
             }
 
+            if (!string.IsNullOrEmpty(Deployment.ChannelToken))
+            {
+                App.Logger.WriteLine(LOG_IDENT, "Not eligible: Private channel enrollment");
+                return false;
+            }
+
             // at least 3GB of free space
             const long minimumFreeSpace = 3_000_000_000;
             long space = Filesystem.GetFreeDiskSpace(Paths.Base);
