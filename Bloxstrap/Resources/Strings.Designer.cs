@@ -3501,6 +3501,16 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The domain you&apos;ve enter appears to be invalid.
+        ///Please don&apos;t change this setting unless you know what you&apos;re doing..
+        /// </summary>
+        public static string Menu_Channel_RobloxDomain_InvalidDomain {
+            get {
+                return ResourceManager.GetString("Menu.Channel.RobloxDomain.InvalidDomain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Roblox domain.
         /// </summary>
         public static string Menu_Channel_RobloxDomain_Title {

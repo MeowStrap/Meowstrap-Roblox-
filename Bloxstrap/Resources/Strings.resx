@@ -1865,4 +1865,8 @@ Defaulting to {1}.</value>
   <data name="Menu.Integrations.StatusDisplay.Description" xml:space="preserve">
     <value>Select the type of status display you want.</value>
   </data>
+  <data name="Menu.Channel.RobloxDomain.InvalidDomain" xml:space="preserve">
+    <value>The domain you've enter appears to be invalid.
+Please don't change this setting unless you know what you're doing.</value>
+  </data>
 </root>
