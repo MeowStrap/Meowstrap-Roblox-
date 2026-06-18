@@ -2323,42 +2323,6 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Level 0 (Lowest).
-        /// </summary>
-        public static string Enums_FlagPresets_TextureQuality_Level0 {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.TextureQuality.Level0", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Level 1.
-        /// </summary>
-        public static string Enums_FlagPresets_TextureQuality_Level1 {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.TextureQuality.Level1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Level 2.
-        /// </summary>
-        public static string Enums_FlagPresets_TextureQuality_Level2 {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.TextureQuality.Level2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Level 3 (Highest).
-        /// </summary>
-        public static string Enums_FlagPresets_TextureQuality_Level3 {
-            get {
-                return ResourceManager.GetString("Enums.FlagPresets.TextureQuality.Level3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Private server.
         /// </summary>
         public static string Enums_ServerType_Private {
@@ -4030,15 +3994,6 @@ namespace Bloxstrap.Resources {
         public static string Menu_FastFlags_Presets_RenderingMode_Title {
             get {
                 return ResourceManager.GetString("Menu.FastFlags.Presets.RenderingMode.Title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Texture quality.
-        /// </summary>
-        public static string Menu_FastFlags_Presets_TextureQuality_Title {
-            get {
-                return ResourceManager.GetString("Menu.FastFlags.Presets.TextureQuality.Title", resourceCulture);
             }
         }
         
