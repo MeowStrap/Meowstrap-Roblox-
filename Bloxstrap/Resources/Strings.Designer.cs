@@ -3258,24 +3258,6 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Allows for having more than one Roblox game client instance open simultaneously. May cause issues with desktop app..
-        /// </summary>
-        public static string Menu_Behaviour_MultiInstances_Description {
-            get {
-                return ResourceManager.GetString("Menu.Behaviour.MultiInstances.Description", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Multi-instance launching.
-        /// </summary>
-        public static string Menu_Behaviour_MultiInstances_Title {
-            get {
-                return ResourceManager.GetString("Menu.Behaviour.MultiInstances.Title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Bootstrapper.
         /// </summary>
         public static string Menu_Behaviour_Title {
@@ -4504,33 +4486,6 @@ namespace Bloxstrap.Resources {
         public static string Menu_Integrations_FakeVulkanBorderless_Title {
             get {
                 return ResourceManager.GetString("Menu.Integrations.FakeVulkanBorderless.Title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Allows for having more than one Roblox game client instance open simultaneously..
-        /// </summary>
-        public static string Menu_Integrations_MultiInstanceLaunching_Description {
-            get {
-                return ResourceManager.GetString("Menu.Integrations.MultiInstanceLaunching.Description", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Allow multi-instance launching.
-        /// </summary>
-        public static string Menu_Integrations_MultiInstanceLaunching_Title {
-            get {
-                return ResourceManager.GetString("Menu.Integrations.MultiInstanceLaunching.Title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Multi-Instancing is prone to breaking. We will not provide support for issues with Multi-Instancing, since Roblox is actively adding measures to make sure it doesn&apos;t work. We cannot and won&apos;t attempt to bypass these measures..
-        /// </summary>
-        public static string Menu_Integrations_MultiInstanceLaunching_Warning {
-            get {
-                return ResourceManager.GetString("Menu.Integrations.MultiInstanceLaunching.Warning", resourceCulture);
             }
         }
         
