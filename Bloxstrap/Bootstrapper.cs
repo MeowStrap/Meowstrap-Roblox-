@@ -1561,7 +1561,14 @@ namespace Bloxstrap
             // we apply it here since RobloxDomain could be changed by the user
             App.Logger.WriteLine(LOG_IDENT, "Writing AppSettings.xml...");
             if (!File.Exists(Paths.Modifications + "\\AppSettings.xml"))
-                await File.WriteAllTextAsync(Path.Combine(_latestVersionDirectory, "AppSettings.xml"), AppSettings.Replace("roblox.com", Deployment.RobloxDomain));
+            {
+                Directory.CreateDirectory(_latestVersionDirectory);
+
+                await File.WriteAllTextAsync(
+                    Path.Combine(_latestVersionDirectory, "AppSettings.xml"),
+                    AppSettings.Replace("roblox.com", Deployment.RobloxDomain)
+                );
+            }
 
             foreach (string file in Directory.GetFiles(Paths.Modifications, "*.*", SearchOption.AllDirectories))
             {
