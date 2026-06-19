@@ -51,6 +51,7 @@ namespace Bloxstrap.Models.Persistable
             "RobloxLogs",
             "FishstrapLogs"
         };
+        public bool EnableWindowManipulation { get; set; } = false;
         public bool FakeBorderlessFullscreen { get; set; } = false;
         public bool EnableActivityTracking { get; set; } = true;
         public bool UseDiscordRichPresence { get; set; } = true;
