@@ -78,17 +78,17 @@
             <ui:ToggleSwitch IsChecked="{Binding DiscordAccountOnProfile, Mode=TwoWay}" />
         </controls:OptionControl>
 
-        <TextBlock Text="{x:Static resources:Strings.Common_DiscordRichPresence}" FontSize="20" FontWeight="Medium" Margin="0,16,0,0" />
+        <TextBlock Text="{x:Static resources:Strings.Common_WindowManipulation}" FontSize="20" FontWeight="Medium" Margin="0,16,0,0" />
         <controls:OptionControl 
-            Header="Enable window manipulation"
-            Description="Allows Fishstrap to access Roblox's window handle allowing for better customization and features.">
+            Header="{x:Static resources:Strings.Menu_Integrations_EnableWindowManipulation_Title}"
+            Description="{x:Static resources:Strings.Menu_Integrations_EnableWindowManipulation_Description}">
             <StackPanel Orientation="Horizontal">
                 <ui:ToggleSwitch IsChecked="{Binding EnableWindowManipulation, Mode=TwoWay}" />
             </StackPanel>
         </controls:OptionControl>
         <controls:OptionControl 
-            Header="Enable Borderless Fullscreen for Vulkan"
-            Description="Let's you use a fake version of borderless fullscreen while using Vulkan."
+            Header="{x:Static resources:Strings.Menu_Integrations_FakeVulkanBorderless_Title}"
+            Description="{x:Static resources:Strings.Menu_Integrations_FakeVulkanBorderless_Description}"
             IsEnabled="{Binding VulkanFullscreenAllowed, Mode=OneWay}">
             <StackPanel Orientation="Horizontal">
                 <ui:ToggleSwitch IsChecked="{Binding EnableFakeBorderlessFullscreen, Mode=TwoWay}" />

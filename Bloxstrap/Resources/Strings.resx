@@ -1854,4 +1854,22 @@ Defaulting to {1}.</value>
     <value>The domain you've enter appears to be invalid.
 Please don't change this setting unless you know what you're doing.</value>
   </data>
+  <data name="Menu.Integrations.EnableWindowManipulation.Title" xml:space="preserve">
+    <value>Enable window manipulation</value>
+  </data>
+  <data name="Menu.Integrations.EnableWindowManipulation.Description" xml:space="preserve">
+    <value>Allows Fishstrap to access Roblox's window handle allowing for better customization and features.</value>
+  </data>
+  <data name="Menu.Integrations.FakeVulkanBorderless.Title" xml:space="preserve">
+    <value>Enable Borderless Fullscreen for Vulkan</value>
+  </data>
+  <data name="Menu.Integrations.FakeVulkanBorderless.Description" xml:space="preserve">
+    <value>Let's you use a fake version of borderless fullscreen while using Vulkan.</value>
+  </data>
+  <data name="Common.WindowManipulation" xml:space="preserve">
+    <value>Window Manipulation</value>
+  </data>
+  <data name="Menu.Appearance.WindowManipulationAlert" xml:space="preserve">
+    <value>This feature requires window manipulation</value>
+  </data>
 </root>

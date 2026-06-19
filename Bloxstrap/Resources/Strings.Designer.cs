@@ -1050,6 +1050,15 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Window Manipulation.
+        /// </summary>
+        public static string Common_WindowManipulation {
+            get {
+                return ResourceManager.GetString("Common.WindowManipulation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Yes.
         /// </summary>
         public static string Common_Yes {
@@ -3132,6 +3141,15 @@ namespace Bloxstrap.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This feature requires window manipulation.
+        /// </summary>
+        public static string Menu_Appearance_WindowManipulationAlert {
+            get {
+                return ResourceManager.GetString("Menu.Appearance.WindowManipulationAlert", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Fishstrap will automatically check and update itself when launching Roblox..
         /// </summary>
         public static string Menu_Behaviour_AutoUpdate_Description {
@@ -4450,6 +4468,42 @@ namespace Bloxstrap.Resources {
         public static string Menu_Integrations_EnableActivityTracking_Title {
             get {
                 return ResourceManager.GetString("Menu.Integrations.EnableActivityTracking.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allows Fishstrap to access Roblox&apos;s window handle allowing for better customization and features..
+        /// </summary>
+        public static string Menu_Integrations_EnableWindowManipulation_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.EnableWindowManipulation.Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enable window manipulation.
+        /// </summary>
+        public static string Menu_Integrations_EnableWindowManipulation_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.EnableWindowManipulation.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Let&apos;s you use a fake version of borderless fullscreen while using Vulkan..
+        /// </summary>
+        public static string Menu_Integrations_FakeVulkanBorderless_Description {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.FakeVulkanBorderless.Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enable Borderless Fullscreen for Vulkan.
+        /// </summary>
+        public static string Menu_Integrations_FakeVulkanBorderless_Title {
+            get {
+                return ResourceManager.GetString("Menu.Integrations.FakeVulkanBorderless.Title", resourceCulture);
             }
         }
         
